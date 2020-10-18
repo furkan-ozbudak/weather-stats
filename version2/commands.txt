@@ -1,0 +1,4 @@
+hadoop fs -mkdir at6
+hadoop fs -mkdir i
+hadoop fs -put i.txt at6/input
+hadoop jar at6.jar AverageTemperature6 at6/input at6/output

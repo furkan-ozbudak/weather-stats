@@ -1,0 +1,37 @@
+a)
+
+hadoop fs -mkdir at1
+hadoop fs -put at.txt at1/i/
+hadoop jar at1.jar AverageTemperature1 at1/i at1/o
+
+
+
+b)
+
+hadoop fs -mkdir at2
+hadoop fs -put at.txt at2/i/
+hadoop jar at2.jar AverageTemperature2 at2/i at2/o
+
+
+
+c)
+
+hadoop fs -mkdir at3
+hadoop fs -put at.txt at3/i/
+hadoop jar at3.jar AverageTemperature3 at3/i at3/o
+
+
+
+d)
+
+hadoop fs -mkdir at4
+hadoop fs -put at.txt at4/i/
+hadoop jar at4.jar AverageTemperature4 at4/i at4/o
+
+
+
+e)
+
+hadoop fs -mkdir at5
+hadoop fs -put at.txt at5/i/
+hadoop jar at5.jar AverageTemperature5 at5/i at5/o
